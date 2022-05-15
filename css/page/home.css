@@ -1,0 +1,272 @@
+@import '../variable.css';
+@import '../default.css';
+@import '../animation/animation.css';
+
+.header-home {
+  width: 100%;
+  /* z-index: 982; */
+  /* position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; */
+  padding: .9rem 0;
+}
+
+.header-home__logo--title {
+  color: #6570FF;
+  font-size: 130%;
+}
+
+/* .h-logo--scroll {
+  color: #5864FF;
+} */
+
+.home-link {
+  color: black;
+  transition: var(--transition-default);
+}
+
+.home-link:hover {
+  width: 1000px;
+  height: 100px;
+  font-size: 110%;
+  border-bottom: 4px solid var(--color-logo-secondary);
+  color:#22a089;
+}
+
+a.color-black {
+  color: black;
+}
+
+.home-link__size {
+  font-size: 80%;
+}
+
+.header-home__nav {
+  width: 15%;
+}
+
+/* 
+          HEADER line
+*/
+
+/* .head-line {
+  position: absolute;
+} */
+
+.hl-container {
+  padding-top: 7rem;
+  text-align: center;
+  /* justify-content: end; */
+}
+
+/* .hl-background-svg {
+  max-width: 1800px;
+  width: 100%;
+  min-height: 979px;
+  margin: var(--align-center);
+  background-image: url('http://localhost:8000/images/background-svg/hero-bg.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+} */
+
+.head__primary-text,
+.head__image {
+  width: 49%;
+}
+
+/* .hl-container p {
+  margin: 40px 0;
+} */
+
+.head__me {
+  width: 100%;
+  text-align: center;
+  
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: nowrap; */
+  /* align-items: center; */
+}
+
+.head__me--subtitle {
+  padding: 2.3rem 0;
+}
+
+.head__me--image {
+  border-radius: 100%;
+}
+
+.head__tech {
+  padding-top: 4rem;
+}
+
+
+
+/*
+
+         SPECIFY CONTENT
+
+*/
+
+.specify {
+  background-color: var(--color-primary-dark);
+  margin-top: -.4rem;
+  padding: 4% 0 15%;
+}
+
+.sepcify-container {
+  color: white;
+  text-align: center;
+  padding: 0 5rem;
+  /* width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1%; */
+}
+
+.sepcify-container h2 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.sepcify-container p {
+  font-size: calc(var(--font-size) - 10%);
+  font-weight: lighter;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.specify-details {
+  text-align: center;
+}
+
+.specify-details__sub-title {
+  margin: 20px 0;
+}
+
+.specify-details__sub-text {
+  font-size: 95%;
+  color: var(--color-text-base);
+}
+
+.icon {
+  width: 130px;
+  height: 130px;
+  /* text-align: center;
+  vertical-align: center; */
+  justify-content: center;
+  border-radius: 500px;
+  margin: var(--align-center);
+  background-color: var(--color-background);
+}
+
+.icon-home {
+  color: var(--color-primary-dark);
+  font-size: 400%;
+}
+
+/*
+
+    emphasis  
+
+*/
+
+.emphasis-container {
+  height: 600px;
+  /* padding: 0 250px 0; */
+  background-image: url('http://localhost:8000/images/background-svg/about-left-shape.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.emphasis-item {
+  width: 46%;
+}
+
+.emphasis--image {
+  box-shadow: 1px 0px 9px .1px;
+  max-width: 533px;
+  max-height: 314px;
+  border-radius: 8px;
+}
+
+
+.emphasis--backgrund-svg {
+  max-width: 1800px;
+}
+
+/* 
+          SKILL
+*/
+
+.skills-cantainer {
+  background-color: white;
+  
+  max-width: 1200px;
+  position: relative;
+  top: -140px;
+  left: 0;
+  right: 0;
+  border-radius: 12px;
+  /* height: 1000px; */
+  /* margin-bottom: 500px; */
+  box-shadow: 0px 2px 10px -4px;
+
+  /* padding: 0rem 1rem; */
+
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-gap: 1rem; */
+}
+
+.skills-column {
+  padding: 7rem 0rem;
+}
+
+.skills-column h3 {
+  font-size: calc(var(--font-size) + 10%);
+  margin-bottom: 1.5rem;
+}
+
+.skills-column p {
+  margin-bottom: .5rem;
+  font-weight: lighter;
+  font-size: calc(var(--font-size) - 25%);
+}
+
+
+/*
+
+          WORKS
+
+*/
+
+.works-container {
+  text-align:center;
+  height: 1000px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.works-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  padding: 0 4rem;
+}
+
+.works-column {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.works-container p {
+  color: rgba(0, 0, 0, .5);
+  margin-top: 1rem;
+  font-size: calc(var(--font-size) - 15%);
+}
