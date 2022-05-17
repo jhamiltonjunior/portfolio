@@ -12,6 +12,8 @@
     --color-primary-lighter: #a0b6ff;
     --color-primary-light: #819ff3;
     --color-primary: #6288e7;
+
+    
     --color-primary-dark: #4271db;
     --color-primary-darker: #141c3a;
 
@@ -65,4 +67,3 @@
     --secondary-font-family: 'Nunito', sans-serif;
     --third-font-family: 'Quicksand', sans-serif;
 }
-/* font-family: 'Exo', sans-serif; */

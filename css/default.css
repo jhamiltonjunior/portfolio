@@ -54,6 +54,28 @@ p {
   margin: var(--align-center);
 }
 
+.social {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid white;
+  border-radius: 100%;
+
+  /* cursor: pointer; */
+  
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: var(--transition-default);
+}
+
+.social:hover {
+  color: var(--color-primary-dark);
+  background-color: white;
+}
+
 ol, li {
   list-style: none;
 }
