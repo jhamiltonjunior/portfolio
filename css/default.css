@@ -60,7 +60,8 @@ ol, li {
 
 a {
   text-decoration: none;
-  color: black;
+  /* color: black; */
+  color: #4271db;
 }
 
 .skills-column > p.subtitle {
