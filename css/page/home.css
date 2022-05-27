@@ -2,6 +2,37 @@
 @import '../default.css';
 @import '../animation/animation.css';
 
+.navigation a {
+  /* display: block; */
+  /* width: 100px; */
+  
+  padding: 0 .5rem;
+  /* margin-bottom: .4rem; */
+
+  transition: var(--transition-default);
+
+  /* border-bottom: solid 2px white; */
+  color: white;
+  background-color: var(--color-primary-dark);
+}
+
+.navigation .works:hover,
+.navigation .specify:hover,
+.navigation .skills:hover {
+  padding-right: 100px;
+  /* width: 150px; */
+  color: black;
+}
+
+.navigation a span {
+  display: none;
+  transition: var(--transition-default);
+}
+
+/* .navigation a:hover span {
+  display: block;
+} */
+
 .header-home {
   width: 100%;
   /* z-index: 982; */
@@ -101,6 +132,7 @@ a:hover {
 }
 
 .head__tech {
+  max-width: 100%;
   padding-top: 4rem;
 }
 
@@ -204,6 +236,8 @@ a:hover {
           SKILL
 */
 
+/* alterar mobile com 768px */
+
 .skills-cantainer {
   background-color: white;
   
@@ -226,8 +260,17 @@ a:hover {
   /* grid-gap: 1rem; */
 }
 
+@media (max-width: 768px) {
+  .skills-cantainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr .5fr .5fr;
+  }
+}
+
 .skills-column {
   padding: 7rem 0rem;
+
+  border-top: 1px solid rgba(126, 126, 126, 0.2);
 }
 
 .skills-column h3 {
@@ -262,14 +305,20 @@ a:hover {
 }
 
 .works-grid {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
 
-  padding: 0 4rem;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  
+  grid-gap: 1rem;
+  /* padding: 0 4rem; */
 }
 
 .works-column {
+  width: calc(33% - 1rem);
+  /* height: 20%; */
+  /* padding-top: 30%; */
+
   border-radius: 10px;
   transition: var(--transition-secondary);
   background-image: url('../../images/page/home/tips-for-prod.png');
@@ -325,6 +374,7 @@ a:hover {
 */
 
 .call-to-action {
+  width: 100%;
   max-width: 1200px;
   height: 170px;
   border-radius: 10px;
@@ -345,6 +395,28 @@ a:hover {
 .call-to-action p,
 .call-to-action button {
   color: white
+}
+
+@media (max-width: 896px) {
+  .call-to-action {
+    /* display: flex; */
+    width: 98%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+  }
+
+  .call-to-action h2,
+  .call-to-action p {
+    width: 100%;
+  }
+
+  .call-to-action p,
+  .call-to-action buttom {
+    padding: 2rem 0;
+  }
 }
 
 .call-to-action p {
@@ -386,12 +458,13 @@ a:hover {
 .footer-grid {
   display: grid;
   grid-gap: 1rem;
-  grid-template-rows: 1fr 2fr .5fr;
+  grid-template-rows: 1fr 2fr .8fr;
 
   padding: 0 4rem;
 }
 
 .footer h3 {
+  color: white;
   max-width: 400px;
   /* font-size: 1rem; */
   text-align: center;
@@ -407,14 +480,16 @@ a:hover {
 }
 
 .footer p {
+  color: white;
   font-size: 1rem;
   font-weight: lighter;
 }
 
 .footer p a {
-  color: black;
+  transition: var(--transition-default);
+  color: white;
 }
 
 .footer p a:hover {
-  color: white;
+  color: black;
 }

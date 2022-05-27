@@ -54,6 +54,13 @@ p {
   margin: var(--align-center);
 }
 
+.fixed {
+  z-index: 9876;
+  position: fixed;
+  top: 50%;
+  right: 0;
+}
+
 .social {
   width: 2.5rem;
   height: 2.5rem;
