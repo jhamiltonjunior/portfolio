@@ -33,6 +33,12 @@
   display: block;
 } */
 
+.linkedin-profile {
+  position: fixed;
+  right: 1%;
+  bottom: 0;
+}
+
 .header-home {
   width: 100%;
   /* z-index: 982; */
