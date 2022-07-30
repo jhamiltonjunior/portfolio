@@ -6,7 +6,7 @@ const port = 8080;
 const app = express();
 
 app.set('view engine', 'ejs');
-app.use(express.static(path.resolve(__dirname)))
+app.use(express.static(path.resolve(__dirname, 'static')))
 
 app.get('/', (req, res) => {
   res.render('index')
