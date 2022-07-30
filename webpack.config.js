@@ -4,6 +4,7 @@ module.exports = {
   mode: 'development',
   entry: {
     home: './assets/js/page/home.js',
+    "create-article": './assets/js/page/create-article.js',
   },
   output: {
     path: path.resolve(__dirname, 'static', 'js'),
