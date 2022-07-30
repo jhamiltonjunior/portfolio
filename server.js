@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
-app.get('/blog', (req, res) => {
-  res.send('Hello World!')
+app.get('/create-article', (req, res) => {
+  res.render('create-article')
 })
 
 app.listen(port, () => {
