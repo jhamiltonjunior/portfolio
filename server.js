@@ -16,6 +16,10 @@ app.get('/create-article', (req, res) => {
   res.render('create-article')
 })
 
+app.get('/show-article', (req, res) => {
+  res.render('show-article')
+})
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
