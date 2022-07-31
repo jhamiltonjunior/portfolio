@@ -914,6 +914,34 @@ var editor = new (_editorjs_editorjs__WEBPACK_IMPORTED_MODULE_1___default())({
       }
     }],
     "version": "2.24.3"
+  },
+
+  /** 
+   * Available Tools list. 
+   * Pass Tool's class or Settings object for each Tool you want to use 
+   */
+  tools: {
+    header: {
+      "class": (_editorjs_header__WEBPACK_IMPORTED_MODULE_2___default()),
+      inlineToolbar: ['link']
+    },
+    list: {
+      "class": (_editorjs_list__WEBPACK_IMPORTED_MODULE_3___default()),
+      inlineToolbar: ['link', 'bold']
+    },
+    image: (_editorjs_simple_image__WEBPACK_IMPORTED_MODULE_4___default()),
+    checklist: {
+      "class": (_editorjs_checklist__WEBPACK_IMPORTED_MODULE_11___default()),
+      inlineToolbar: ['link']
+    },
+    quote: (_editorjs_quote__WEBPACK_IMPORTED_MODULE_10___default()),
+    warning: (_editorjs_warning__WEBPACK_IMPORTED_MODULE_9___default()),
+    marker: (_editorjs_marker__WEBPACK_IMPORTED_MODULE_8___default()),
+    delimiter: (_editorjs_delimiter__WEBPACK_IMPORTED_MODULE_6___default()),
+    inlineCode: (_editorjs_inline_code__WEBPACK_IMPORTED_MODULE_7___default()),
+    linkTool: (_editorjs_link__WEBPACK_IMPORTED_MODULE_13___default()),
+    embed: (_editorjs_embed__WEBPACK_IMPORTED_MODULE_12___default()),
+    table: (_editorjs_table__WEBPACK_IMPORTED_MODULE_5___default())
   }
 });
 })();
