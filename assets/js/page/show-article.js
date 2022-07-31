@@ -137,35 +137,4 @@ const editor = new EditorJS({
     ],
     "version" : "2.24.3"
 },
-
-  /** 
-   * Available Tools list. 
-   * Pass Tool's class or Settings object for each Tool you want to use 
-   */ 
-   tools: {
-    header: {
-      class: Header,
-      inlineToolbar: ['link'],
-    },
-    list: {
-      class: List,
-      inlineToolbar: [
-        'link',
-        'bold'
-      ]
-    },
-    image: SimpleImage,
-    checklist: {
-        class: Checklist,
-        inlineToolbar: ['link']
-      },
-    quote: Quote,
-    warning: Warning,
-    marker: Marker,
-    delimiter: Delimiter,
-    inlineCode: InlineCode,
-    linkTool: LinkTool,
-    embed: Embed,
-    table: Table
-  },
 })
