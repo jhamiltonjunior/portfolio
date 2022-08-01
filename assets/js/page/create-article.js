@@ -51,3 +51,9 @@ const editor = new EditorJS({
     table: Table
   },
 })
+
+const id = document.querySelector('#editorjs')
+
+editor.isReady.then(() => {
+    console.log(id.firstChild.outerHTML)
+})

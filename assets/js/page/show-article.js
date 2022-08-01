@@ -171,8 +171,4 @@ const editor = new EditorJS({
   },
 })
 
-const id = document.querySelector('#editorjs')
 
-editor.isReady.then(() => {
-    console.log(id.firstChild.outerHTML)
-})
