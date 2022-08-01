@@ -138,6 +138,7 @@ const editor = new EditorJS({
     "version" : "2.24.3"
 },
 
+
   /** 
    * Available Tools list. 
    * Pass Tool's class or Settings object for each Tool you want to use 
@@ -168,4 +169,10 @@ const editor = new EditorJS({
     embed: Embed,
     table: Table
   },
+})
+
+const id = document.querySelector('#editorjs')
+
+editor.isReady.then(() => {
+    console.log(id.firstChild.outerHTML)
 })

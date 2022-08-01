@@ -11,7 +11,7 @@ import '../../css/page/home.css';
 // import SetImage from '../util/SetImage.js';
 // import FetchData from '../util/FetchData.js';
 
-import '../animation/index.js';
+// import '../animation/index.js';
 
 // ndew SetImage(
 //   '../../images/page/home/hero-img.png',

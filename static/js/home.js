@@ -15,97 +15,6 @@ function _typeof(obj){"@babel/helpers - typeof";return _typeof="function"==typeo
 
 /***/ }),
 
-/***/ "./assets/js/animation/index.js":
-/*!**************************************!*\
-  !*** ./assets/js/animation/index.js ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "allElementsEmphasis": () => (/* binding */ allElementsEmphasis),
-/* harmony export */   "allElementsSpecify": () => (/* binding */ allElementsSpecify),
-/* harmony export */   "elementPrimary": () => (/* binding */ elementPrimary),
-/* harmony export */   "header": () => (/* binding */ header),
-/* harmony export */   "homeLink": () => (/* binding */ homeLink),
-/* harmony export */   "logo": () => (/* binding */ logo)
-/* harmony export */ });
-var header = document.querySelectorAll('[data-animate-header]');
-var elementPrimary = document.querySelectorAll('[data-animation-primary]');
-var allElementsSpecify = document.querySelectorAll('[data-all-animation-specify]');
-var allElementsEmphasis = document.querySelectorAll('[data-all-animation-emphasis]');
-var homeLink = document.querySelectorAll('.home-link');
-var logo = document.querySelector('.header-home__logo--title');
-var animate = 'animate';
-var animateEmphasis = 'animate-emphasis';
-var resetColor = 'color-black';
-setTimeout(function () {
-  elementPrimary.forEach(function (element) {
-    element.classList.add(animate);
-  });
-}, 200);
-window.addEventListener('scroll', function () {
-  var windowTop = window.pageYOffset;
-  var windowHeight = window.innerHeight * 1 / 15;
-  header.forEach(function (element) {
-    if (windowTop > windowHeight) {
-      element.classList.add(animate);
-    } else {
-      header.forEach(function (el) {
-        el.classList.remove(animate);
-      });
-    }
-  });
-
-  if (windowTop > windowHeight) {
-    logo.classList.add('h-logo--scroll');
-  } else {
-    logo.classList.remove('h-logo--scroll');
-  }
-});
-window.addEventListener('scroll', function () {
-  var windowTop = window.pageYOffset;
-  var windowHeight = window.innerHeight * 1 / 15;
-  homeLink.forEach(function (element) {
-    if (windowTop > windowHeight) {
-      element.classList.add(resetColor);
-    } else {
-      header.forEach(function (el) {
-        el.classList.remove(resetColor);
-      });
-    }
-  });
-});
-window.addEventListener('scroll', function () {
-  var windowTop = window.pageYOffset;
-  var windowHeight = window.innerHeight / 4;
-  allElementsSpecify.forEach(function (element) {
-    if (windowTop > windowHeight) {
-      element.classList.add(animate);
-    } else {
-      allElementsSpecify.forEach(function (el) {
-        el.classList.remove(animate);
-      });
-    }
-  });
-});
-window.addEventListener('scroll', function () {
-  var windowTop = window.pageYOffset;
-  var windowHeight = window.innerHeight * 2 / 2.8;
-  allElementsEmphasis.forEach(function (element) {
-    if (windowTop > windowHeight) {
-      element.classList.add(animateEmphasis);
-    } else {
-      allElementsEmphasis.forEach(function (el) {
-        el.classList.remove(animateEmphasis);
-      });
-    }
-  });
-});
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js!./assets/css/default.css":
 /*!**********************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./assets/css/default.css ***!
@@ -1261,7 +1170,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_variable_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../css/variable.css */ "./assets/css/variable.css");
 /* harmony import */ var _css_default_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../css/default.css */ "./assets/css/default.css");
 /* harmony import */ var _css_page_home_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../css/page/home.css */ "./assets/css/page/home.css");
-/* harmony import */ var _animation_index_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../animation/index.js */ "./assets/js/animation/index.js");
 // sempre colocar os arquivos mais importantes por ultimo
 
 
@@ -1270,8 +1178,8 @@ __webpack_require__.r(__webpack_exports__);
 
  // import SetImage from '../util/SetImage.js';
 // import FetchData from '../util/FetchData.js';
-
- // ndew SetImage(
+// import '../animation/index.js';
+// ndew SetImage(
 //   '../../images/page/home/hero-img.png',
 //   'hero-head-line',
 // ).innerImage();

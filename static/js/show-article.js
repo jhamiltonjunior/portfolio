@@ -944,6 +944,10 @@ var editor = new (_editorjs_editorjs__WEBPACK_IMPORTED_MODULE_1___default())({
     table: (_editorjs_table__WEBPACK_IMPORTED_MODULE_5___default())
   }
 });
+var id = document.querySelector('#editorjs');
+editor.isReady.then(function () {
+  console.log(id.firstChild.outerHTML);
+});
 })();
 
 /******/ })()
