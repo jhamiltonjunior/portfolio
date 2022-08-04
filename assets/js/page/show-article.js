@@ -1,4 +1,4 @@
-import '../../css/page/create-article.css';
+import '../../css/page/show-article.css';
 
 import EditorJS from '@editorjs/editorjs';
 import Header from '@editorjs/header';

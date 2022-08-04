@@ -150,10 +150,10 @@ var a=function(){function e(t){var n=t.data,r=t.config,i=t.api,a=t.readOnly;!fun
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./assets/css/page/create-article.css":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./assets/css/page/create-article.css ***!
-  \**********************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./assets/css/page/show-article.css":
+/*!********************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./assets/css/page/show-article.css ***!
+  \********************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -169,8 +169,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  background-color: rgb(233, 233, 233);\n  height: 100%;\n  padding: 3em;\n  font-family: 'Montserrat';\n}\n\n#editorjs {\n  width:100%;\n  height:100%;\n  background-color: rgb(255, 255, 255);\n}\n\nbutton {\n  /* cursor: pointer;\n  background-color: rgb(0, 174, 255);\n  color: white;\n  border: none;\n  border-radius: 10px;\n  text-transform: uppercase;\n  padding: 1em;\n  margin-top: 2em; */\n}", "",{"version":3,"sources":["webpack://./assets/css/page/create-article.css"],"names":[],"mappings":"AAAA;EACE,oCAAoC;EACpC,YAAY;EACZ,YAAY;EACZ,yBAAyB;AAC3B;;AAEA;EACE,UAAU;EACV,WAAW;EACX,oCAAoC;AACtC;;AAEA;EACE;;;;;;;oBAOkB;AACpB","sourcesContent":["body {\n  background-color: rgb(233, 233, 233);\n  height: 100%;\n  padding: 3em;\n  font-family: 'Montserrat';\n}\n\n#editorjs {\n  width:100%;\n  height:100%;\n  background-color: rgb(255, 255, 255);\n}\n\nbutton {\n  /* cursor: pointer;\n  background-color: rgb(0, 174, 255);\n  color: white;\n  border: none;\n  border-radius: 10px;\n  text-transform: uppercase;\n  padding: 1em;\n  margin-top: 2em; */\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "h2 {\n  font-size: 2.7rem;\n}\n\n\nh1,\nh2,\nh3,\nh4 {\n  font-family: 'Source Sans Pro', sans-serif;\n  color: #b4b4b4;\n}\n\np,\ndiv {\n  font-family: 'Nunito', sans-serif;\n  font-size: 1.1rem;\n  color: white;\n}\n\nbody {\n  background-color: #111111;\n}", "",{"version":3,"sources":["webpack://./assets/css/page/show-article.css"],"names":[],"mappings":"AAEA;EACE,iBAAiB;AACnB;;;AAGA;;;;EAIE,0CAA0C;EAC1C,cAAc;AAChB;;AAEA;;EAEE,iCAAiC;EACjC,iBAAiB;EACjB,YAAY;AACd;;AAEA;EACE,yBAAyB;AAC3B","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap');\n\nh2 {\n  font-size: 2.7rem;\n}\n\n\nh1,\nh2,\nh3,\nh4 {\n  font-family: 'Source Sans Pro', sans-serif;\n  color: #b4b4b4;\n}\n\np,\ndiv {\n  font-family: 'Nunito', sans-serif;\n  font-size: 1.1rem;\n  color: white;\n}\n\nbody {\n  background-color: #111111;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -321,10 +322,10 @@ module.exports = function (item) {
 
 /***/ }),
 
-/***/ "./assets/css/page/create-article.css":
-/*!********************************************!*\
-  !*** ./assets/css/page/create-article.css ***!
-  \********************************************/
+/***/ "./assets/css/page/show-article.css":
+/*!******************************************!*\
+  !*** ./assets/css/page/show-article.css ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -344,7 +345,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_create_article_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!./create-article.css */ "./node_modules/css-loader/dist/cjs.js!./assets/css/page/create-article.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_show_article_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!./show-article.css */ "./node_modules/css-loader/dist/cjs.js!./assets/css/page/show-article.css");
 
       
       
@@ -366,12 +367,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_create_article_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_show_article_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_create_article_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_create_article_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_create_article_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_show_article_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_show_article_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_show_article_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -769,7 +770,7 @@ var __webpack_exports__ = {};
   !*** ./assets/js/page/show-article.js ***!
   \****************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _css_page_create_article_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../css/page/create-article.css */ "./assets/css/page/create-article.css");
+/* harmony import */ var _css_page_show_article_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../css/page/show-article.css */ "./assets/css/page/show-article.css");
 /* harmony import */ var _editorjs_editorjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @editorjs/editorjs */ "./node_modules/@editorjs/editorjs/dist/editor.js");
 /* harmony import */ var _editorjs_editorjs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_editorjs_editorjs__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _editorjs_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @editorjs/header */ "./node_modules/@editorjs/header/dist/bundle.js");
