@@ -150,6 +150,33 @@ var a=function(){function e(t){var n=t.data,r=t.config,i=t.api,a=t.readOnly;!fun
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./assets/css/includes/header.css":
+/*!******************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./assets/css/includes/header.css ***!
+  \******************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".header-home {\n  width: 100%;\n  /* z-index: 982; */\n  /* position: fixed;\n  top: 0;\n  right: 0;\n  left: 0; */\n  padding: .9rem 0;\n}\n\n.header-home__logo--title {\n  color: #6570FF;\n  font-size: 130%;\n}\n\n/* .h-logo--scroll {\n  color: #5864FF;\n} */\n\n.home-link {\n  color: black;\n  transition: var(--transition-default);\n}\n\n.home-link:hover {\n  width: 1000px;\n  height: 100px;\n  font-size: 110%;\n  border-bottom: 4px solid var(--color-logo-secondary);\n}\n\na.color-black {\n  color: black;\n}\n\na:hover {\n  color: var(--color-secondary);\n}\n\n.home-link__size {\n  font-size: 80%;\n}\n\n.header-home__nav {\n  width: 15%;\n}", "",{"version":3,"sources":["webpack://./assets/css/includes/header.css"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,kBAAkB;EAClB;;;YAGU;EACV,gBAAgB;AAClB;;AAEA;EACE,cAAc;EACd,eAAe;AACjB;;AAEA;;GAEG;;AAEH;EACE,YAAY;EACZ,qCAAqC;AACvC;;AAEA;EACE,aAAa;EACb,aAAa;EACb,eAAe;EACf,oDAAoD;AACtD;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,UAAU;AACZ","sourcesContent":[".header-home {\n  width: 100%;\n  /* z-index: 982; */\n  /* position: fixed;\n  top: 0;\n  right: 0;\n  left: 0; */\n  padding: .9rem 0;\n}\n\n.header-home__logo--title {\n  color: #6570FF;\n  font-size: 130%;\n}\n\n/* .h-logo--scroll {\n  color: #5864FF;\n} */\n\n.home-link {\n  color: black;\n  transition: var(--transition-default);\n}\n\n.home-link:hover {\n  width: 1000px;\n  height: 100px;\n  font-size: 110%;\n  border-bottom: 4px solid var(--color-logo-secondary);\n}\n\na.color-black {\n  color: black;\n}\n\na:hover {\n  color: var(--color-secondary);\n}\n\n.home-link__size {\n  font-size: 80%;\n}\n\n.header-home__nav {\n  width: 15%;\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./assets/css/page/show-article.css":
 /*!********************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./assets/css/page/show-article.css ***!
@@ -165,18 +192,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_includes_header_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!../includes/header.css */ "./node_modules/css-loader/dist/cjs.js!./assets/css/includes/header.css");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3__);
 // Imports
+
 
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../images/fundo.jpg */ "./assets/images/fundo.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap);"]);
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_includes_header_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "h2 {\n  font-size: 2.7rem;\n}\n\n\nh1,\nh2,\nh3,\nh4 {\n  font-family: 'Source Sans Pro', sans-serif;\n  color: #b4b4b4;\n}\n\np,\ndiv {\n  font-family: 'Nunito', sans-serif;\n  font-size: 1.1rem;\n  color: #b4b4b4;\n}\n\nbody {\n  background-color: #111111;\n}\n\n.m-hero__picture {\n  width: 100%;\n  height: 20rem;\n  max-height: 20rem;\n\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n}", "",{"version":3,"sources":["webpack://./assets/css/page/show-article.css"],"names":[],"mappings":"AAEA;EACE,iBAAiB;AACnB;;;AAGA;;;;EAIE,0CAA0C;EAC1C,cAAc;AAChB;;AAEA;;EAEE,iCAAiC;EACjC,iBAAiB;EACjB,cAAc;AAChB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,WAAW;EACX,aAAa;EACb,iBAAiB;;EAEjB,yDAA+C;EAC/C,sBAAsB;AACxB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap');\n\nh2 {\n  font-size: 2.7rem;\n}\n\n\nh1,\nh2,\nh3,\nh4 {\n  font-family: 'Source Sans Pro', sans-serif;\n  color: #b4b4b4;\n}\n\np,\ndiv {\n  font-family: 'Nunito', sans-serif;\n  font-size: 1.1rem;\n  color: #b4b4b4;\n}\n\nbody {\n  background-color: #111111;\n}\n\n.m-hero__picture {\n  width: 100%;\n  height: 20rem;\n  max-height: 20rem;\n\n  background-image: url('../../images/fundo.jpg');\n  background-size: cover;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "h2 {\n  font-size: 2.7rem;\n}\n\n\nh1,\nh2,\nh3,\nh4 {\n  font-family: 'Source Sans Pro', sans-serif;\n  color: #b4b4b4;\n}\n\np,\ndiv {\n  font-family: 'Nunito', sans-serif;\n  font-size: 1.1rem;\n  color: #b4b4b4;\n}\n\nbody {\n  background-color: #111111;\n}\n\n.m-hero__picture {\n  width: 100%;\n  height: 20rem;\n  max-height: 20rem;\n\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n}", "",{"version":3,"sources":["webpack://./assets/css/page/show-article.css"],"names":[],"mappings":"AAIA;EACE,iBAAiB;AACnB;;;AAGA;;;;EAIE,0CAA0C;EAC1C,cAAc;AAChB;;AAEA;;EAEE,iCAAiC;EACjC,iBAAiB;EACjB,cAAc;AAChB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,WAAW;EACX,aAAa;EACb,iBAAiB;;EAEjB,yDAA+C;EAC/C,sBAAsB;AACxB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap');\n\n@import '../includes/header.css';\n\nh2 {\n  font-size: 2.7rem;\n}\n\n\nh1,\nh2,\nh3,\nh4 {\n  font-family: 'Source Sans Pro', sans-serif;\n  color: #b4b4b4;\n}\n\np,\ndiv {\n  font-family: 'Nunito', sans-serif;\n  font-size: 1.1rem;\n  color: #b4b4b4;\n}\n\nbody {\n  background-color: #111111;\n}\n\n.m-hero__picture {\n  width: 100%;\n  height: 20rem;\n  max-height: 20rem;\n\n  background-image: url('../../images/fundo.jpg');\n  background-size: cover;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

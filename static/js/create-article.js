@@ -150,10 +150,10 @@ var a=function(){function e(t){var n=t.data,r=t.config,i=t.api,a=t.readOnly;!fun
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./assets/css/page/create-article.css":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./assets/css/page/create-article.css ***!
-  \**********************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./assets/css/includes/header.css":
+/*!******************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./assets/css/includes/header.css ***!
+  \******************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -170,7 +170,37 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  background-color: rgb(233, 233, 233);\n  height: 100%;\n  padding: 3em;\n  font-family: 'Montserrat';\n}\n\n#editorjs {\n  width:100%;\n  height:100%;\n  background-color: rgb(255, 255, 255);\n}\n\nbutton {\n  /* cursor: pointer;\n  background-color: rgb(0, 174, 255);\n  color: white;\n  border: none;\n  border-radius: 10px;\n  text-transform: uppercase;\n  padding: 1em;\n  margin-top: 2em; */\n}", "",{"version":3,"sources":["webpack://./assets/css/page/create-article.css"],"names":[],"mappings":"AAAA;EACE,oCAAoC;EACpC,YAAY;EACZ,YAAY;EACZ,yBAAyB;AAC3B;;AAEA;EACE,UAAU;EACV,WAAW;EACX,oCAAoC;AACtC;;AAEA;EACE;;;;;;;oBAOkB;AACpB","sourcesContent":["body {\n  background-color: rgb(233, 233, 233);\n  height: 100%;\n  padding: 3em;\n  font-family: 'Montserrat';\n}\n\n#editorjs {\n  width:100%;\n  height:100%;\n  background-color: rgb(255, 255, 255);\n}\n\nbutton {\n  /* cursor: pointer;\n  background-color: rgb(0, 174, 255);\n  color: white;\n  border: none;\n  border-radius: 10px;\n  text-transform: uppercase;\n  padding: 1em;\n  margin-top: 2em; */\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".header-home {\n  width: 100%;\n  /* z-index: 982; */\n  /* position: fixed;\n  top: 0;\n  right: 0;\n  left: 0; */\n  padding: .9rem 0;\n}\n\n.header-home__logo--title {\n  color: #6570FF;\n  font-size: 130%;\n}\n\n/* .h-logo--scroll {\n  color: #5864FF;\n} */\n\n.home-link {\n  color: black;\n  transition: var(--transition-default);\n}\n\n.home-link:hover {\n  width: 1000px;\n  height: 100px;\n  font-size: 110%;\n  border-bottom: 4px solid var(--color-logo-secondary);\n}\n\na.color-black {\n  color: black;\n}\n\na:hover {\n  color: var(--color-secondary);\n}\n\n.home-link__size {\n  font-size: 80%;\n}\n\n.header-home__nav {\n  width: 15%;\n}", "",{"version":3,"sources":["webpack://./assets/css/includes/header.css"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,kBAAkB;EAClB;;;YAGU;EACV,gBAAgB;AAClB;;AAEA;EACE,cAAc;EACd,eAAe;AACjB;;AAEA;;GAEG;;AAEH;EACE,YAAY;EACZ,qCAAqC;AACvC;;AAEA;EACE,aAAa;EACb,aAAa;EACb,eAAe;EACf,oDAAoD;AACtD;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,UAAU;AACZ","sourcesContent":[".header-home {\n  width: 100%;\n  /* z-index: 982; */\n  /* position: fixed;\n  top: 0;\n  right: 0;\n  left: 0; */\n  padding: .9rem 0;\n}\n\n.header-home__logo--title {\n  color: #6570FF;\n  font-size: 130%;\n}\n\n/* .h-logo--scroll {\n  color: #5864FF;\n} */\n\n.home-link {\n  color: black;\n  transition: var(--transition-default);\n}\n\n.home-link:hover {\n  width: 1000px;\n  height: 100px;\n  font-size: 110%;\n  border-bottom: 4px solid var(--color-logo-secondary);\n}\n\na.color-black {\n  color: black;\n}\n\na:hover {\n  color: var(--color-secondary);\n}\n\n.home-link__size {\n  font-size: 80%;\n}\n\n.header-home__nav {\n  width: 15%;\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./assets/css/page/create-article.css":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./assets/css/page/create-article.css ***!
+  \**********************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_includes_header_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js!../includes/header.css */ "./node_modules/css-loader/dist/cjs.js!./assets/css/includes/header.css");
+// Imports
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_includes_header_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  background-color: rgb(233, 233, 233);\n  height: 100%;\n  padding: 3em;\n  font-family: 'Montserrat';\n}\n\n#editorjs {\n  width:100%;\n  height:100%;\n  background-color: rgb(255, 255, 255);\n}\n\n/* button { */\n  /* cursor: pointer;\n  background-color: rgb(0, 174, 255);\n  color: white;\n  border: none;\n  border-radius: 10px;\n  text-transform: uppercase;\n  padding: 1em;\n  margin-top: 2em; */\n/* } */", "",{"version":3,"sources":["webpack://./assets/css/page/create-article.css"],"names":[],"mappings":"AAEA;EACE,oCAAoC;EACpC,YAAY;EACZ,YAAY;EACZ,yBAAyB;AAC3B;;AAEA;EACE,UAAU;EACV,WAAW;EACX,oCAAoC;AACtC;;AAEA,aAAa;EACX;;;;;;;oBAOkB;AACpB,MAAM","sourcesContent":["@import '../includes/header.css';\n\nbody {\n  background-color: rgb(233, 233, 233);\n  height: 100%;\n  padding: 3em;\n  font-family: 'Montserrat';\n}\n\n#editorjs {\n  width:100%;\n  height:100%;\n  background-color: rgb(255, 255, 255);\n}\n\n/* button { */\n  /* cursor: pointer;\n  background-color: rgb(0, 174, 255);\n  color: white;\n  border: none;\n  border-radius: 10px;\n  text-transform: uppercase;\n  padding: 1em;\n  margin-top: 2em; */\n/* } */"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
