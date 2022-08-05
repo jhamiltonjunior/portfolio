@@ -23,14 +23,15 @@
 
     --color-background: #EEEFFF;
     --color-header-background: #f0f0f7c7;
-
+    --color-article-background-light: #f0f0f7c7;
+    --color-article-background-dark: #111111;
     
     --color-title-in-primary: #FFFFFF;
     --color-text-in-primary: #D4C2FF;
     --color-text-title: #32264D;
 
     --color-text-complement: #9C98A6;
-    --color-text-base: #4f495f;
+    --color-text-base: #b4b4b4;
 
     --color-line-in-white: #E6E6F0;
 

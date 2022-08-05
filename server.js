@@ -124,7 +124,7 @@ app.get('/data', (req, res) => {
 				"type": "image",
 				"data": {
 					"file": {
-						"url": "https://codex.so/public/app/img/external/codex2x.png"
+						"url": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.olhardigital.com.br%2Fwp-content%2Fuploads%2F2021%2F12%2FCode.jpg&imgrefurl=https%3A%2F%2Folhardigital.com.br%2F2022%2F07%2F20%2Fcolunistas%2Fa-revolucao-do-no-code-o-futuro-nao-tem-codigo%2F&tbnid=-VIBL8DVkT2olM&vet=12ahUKEwi1vKCY07D5AhV2rpUCHU9_DnUQMygAegUIARDRAQ..i&docid=afX_6qwi7r_VgM&w=1000&h=595&q=code&client=firefox-b-e&ved=2ahUKEwi1vKCY07D5AhV2rpUCHU9_DnUQMygAegUIARDRAQ"
 					},
 					"caption": "",
 					"withBorder": false,

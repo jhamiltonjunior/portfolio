@@ -1,3 +1,5 @@
+@import '../variable.css';
+@import '../default.css';
 @import '../includes/header.css';
 
 body {

@@ -25,7 +25,7 @@
 .home-link:hover {
   width: 1000px;
   height: 100px;
-  font-size: 110%;
+  /* font-size: 110%; */
   border-bottom: 4px solid var(--color-logo-secondary);
 }
 

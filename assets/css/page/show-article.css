@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap');
 
+@import '../variable.css';
+@import '../default.css';
 @import '../includes/header.css';
 
 h2 {
@@ -12,18 +14,18 @@ h2,
 h3,
 h4 {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #b4b4b4;
+  color: var(--color-text-base);
 }
 
 p,
 div {
   font-family: 'Nunito', sans-serif;
   font-size: 1.1rem;
-  color: #b4b4b4;
+  color: var(--color-text-base);
 }
 
 body {
-  background-color: #111111;
+  background-color: var(--color-article-background-dark);
 }
 
 .m-hero__picture {
