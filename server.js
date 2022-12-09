@@ -13,6 +13,18 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
+app.get("/sitemaps", function (req, res) {
+  var fs = require("fs");
+
+  try {
+    var data = fs.readFileSync("sitemap.xml", "utf8");
+    res.send(data);
+    // console.log(data.toString());
+  } catch (e) {
+    console.log("Error:", e.stack);
+  }
+});
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
