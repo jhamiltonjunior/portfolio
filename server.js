@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
-app.get("/sitemap.xml", function (req, res) {
+app.get("/sitemap", function (req, res) {
   var fs = require("fs");
 
   try {
