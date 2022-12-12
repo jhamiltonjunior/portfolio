@@ -17,7 +17,7 @@ app.get("/sitemap.xml", function (req, res) {
   var fs = require("fs");
 
   try {
-    var data = fs.readFileSync("sitemap.xml", "utf8");
+    var data = fs.readFileSync("5289617_2.xml", "utf8");
     res.send(data);
     // console.log(data.toString());
   } catch (e) {
