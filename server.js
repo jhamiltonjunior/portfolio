@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 })
 
 let sitemap
-app.get('/sitemap.xml', function(req, res) {
+app.get('/sitemap', function(req, res) {
   res.header('Content-Type', 'application/xml');
   res.header('Content-Encoding', 'gzip');
   // if we have a cached entry send it
