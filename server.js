@@ -13,7 +13,8 @@ app.set('views', path.resolve('.'));
 app.use(express.static(path.resolve(__dirname, '.')))
 
 app.get('/', (req, res) => {
-  res.render('index')
+  // res.render('index')
+  res.redirect('https://blog.hamiltonjr.dev')
 })
 
 let sitemap
