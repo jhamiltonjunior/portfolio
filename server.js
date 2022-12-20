@@ -13,8 +13,13 @@ app.set('views', path.resolve('.'));
 app.use(express.static(path.resolve(__dirname, '.')))
 
 app.get('/', (req, res) => {
+  res.status(200)
   res.render('index')
   // res.redirect('https://blog.hamiltonjr.dev')
+})
+
+app.get('/download-cv', (req, res) => {
+  res.download('./static/hamilton.pdf')
 })
 
 let sitemap
