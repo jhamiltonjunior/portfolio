@@ -12,7 +12,12 @@
   <meta property="og:title" content="Filipe Deschamps" class="jsx-75192e1c6fd4560f" />
   <meta property="og:description" content="Vou fazer você se apaixonar por programação!" class="jsx-75192e1c6fd4560f" />
   <meta property="og:image" content="/avatar-big.png" class="jsx-75192e1c6fd4560f" />
-  <link rel="icon" type="image/png" href="images/profile-pic-hamilton.ico" sizes="180x180" class="jsx-75192e1c6fd4560f" />
+  <link rel="icon" type="image/png" href="images/profile-pic-hamilton.ico" sizes="180x180"
+    class="jsx-75192e1c6fd4560f" />
+
+  <link rel="stylesheet" type="text/css" href="styles/output.css" />
+
+
   <meta name="next-head-count" content="14" /><noscript data-n-css=""></noscript>
   <style id="__jsx-75192e1c6fd4560f">
     * {
@@ -28,7 +33,7 @@
     }
 
     .container {
-      min-height: 80vh;
+      min-height: 90vh;
       display: -webkit-box;
       display: -webkit-flex;
       display: -moz-box;
@@ -92,23 +97,23 @@
       display: -moz-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -moz-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
+      -webkit-box-align: top;
+      -webkit-align-items: top;
+      -moz-box-align: top;
+      -ms-flex-align: top;
+      align-items: top;
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-      max-width: 800px;
+      max-width: 1200px;
       margin-top: 1.5rem
     }
 
     .card.jsx-7d0c093f5e518fb2 {
       margin: 1rem;
-      -webkit-flex-basis: 45%;
-      -ms-flex-preferred-size: 45%;
-      flex-basis: 45%;
+      -webkit-flex-basis: 29%;
+      -ms-flex-preferred-size: 29%;
+      flex-basis: 29%;
       padding: 1.5rem;
       text-align: left;
       text-decoration: none;
@@ -138,6 +143,14 @@
       margin: 0;
       font-size: 1.25rem;
       line-height: 1.5
+    }
+
+    @media (max-width: 744px) {
+      .card.jsx-7d0c093f5e518fb2 {
+        -webkit-flex-basis: 45%;
+        -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+      }
     }
 
     @media(max-width:700px) {
@@ -188,10 +201,11 @@
         necessidades!
       </p>
 
-      <div style="padding:20px 0;"></div>
+      <div style="padding: 2rem 0;"></div>
 
       <h2 class="jsx-7d0c093f5e518fb2 title">Projetos</h2>
-      <div class="jsx-7d0c093f5e518fb2 grid">
+
+      <div class="jsx-7d0c093f5e518fb2 grid grid-cols-4">
 
         <a href="https://youtube.com/@hamiltonjr_dev_" class="jsx-7d0c093f5e518fb2 card">
           <h3 class="jsx-7d0c093f5e518fb2">API de Pagamentos</h3>
