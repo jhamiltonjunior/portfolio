@@ -7,3 +7,8 @@
   height: 30px;
   border-radius: 50%;
 }
+
+.hire-me:hover {
+  color: #1a1a1a;
+  background-color: #ececec;
+}
