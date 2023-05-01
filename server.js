@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/download-cv', (req, res) => {
-  res.download('./static/hamilton.pdf')
+  res.download('./static/hamilton-grad.pdf')
 })
 
 let sitemap

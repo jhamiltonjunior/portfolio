@@ -515,3 +515,9 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
