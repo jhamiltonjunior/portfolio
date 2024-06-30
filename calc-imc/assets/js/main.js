@@ -107,7 +107,6 @@ function meuEscopo(){
 }
 
 function mascara(el) {
-	console.log(el.value)
 	el.value = el.value
 		.replace(',', '')
 		.replace('.', '')
