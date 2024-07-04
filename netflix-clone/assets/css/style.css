@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3,
+h4, h5, button,
+p, span  {
+  color:white;
+}
+
+html,body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1099px){
+    .container{
+        width: 98%;
+    }
+}
+
+h3 {
+    font-size: 25px;
+}
+
+button {
+    cursor:pointer;
+    border:none;
+    background: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+header {
+    background-image: linear-gradient(black,
+    rgba(255, 255, 255, 0))
+}
+
+.body__banner-of-filme {
+    width: 100%;
+    /* background-image:url('../img/la-casa-de-papel-4k.jpg'); */
+    background-size:cover;
+    background-position:center;
+}
+
+.body__banner--rgba {
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.body__video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+}
+
+.container--flex {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__wrapper--flex {
+    display: flex;
+    align-items: center;
+}
+
+.header__img-logo {
+    width: 130px;
+}
+
+.header__navegation ul,
+.header__navegation li {
+    display: flex;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.header__wrapper-options {
+    width: 20%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.header__button-mobile {
+    display: none;
+}
+
+.menu__mobile {
+    min-width: 30vw;
+    text-align: center;
+    display: none;
+    background-color: #363636;
+    color: #fcfcfc;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 50px;
+    left: 9vw;
+    transform: translateY(-150%);
+    transition: all 235ms cubic-bezier(.95, .05, .795, .035);
+}
+
+
+.menu__mobile.is-active {
+    transform: none;
+    transition: all 205ms cubic-bezier(.19, 1, .22, 1);
+}
+
+.menu__mobile ul li{
+    padding: 20px 0;
+    list-style: none;
+    border-bottom: solid gray;
+}
+
+.menu__mobile ul li a{
+    width: 100%;
+    height: 100%;
+    padding: 30px 50px;
+}
+
+@media screen and (max-width:842px) {
+    .header__navegation {
+        display: none;
+    }
+
+    .header__button-mobile {
+        cursor:pointer;
+        display: block;
+        padding-left: 30px;
+    }
+    
+    .menu__mobile {
+        display: block;
+    }
+
+    .header__wrapper-options {
+        width: 35%;
+    }
+}
+
+
+.info {
+    /* background-color: wheat; */
+    padding: 50px 0;
+}
+
+.info__n-series .fa {
+    color : red;
+}
+
+.info__container {
+    width: 50%;
+    /* background-color:rgb(194, 214, 16); */
+}
+
+.info__title {
+    width: 50%;
+    margin: 20px 10px 20px 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
+
+.info__container p{
+    font-size: 22px;
+}
+
+@media screen and (max-width: 922px){
+    .info__container {
+        width: 90%;
+        /* background-color:rgb(194, 214, 16); */
+    }
+
+    .info__title {
+        width: 100%;
+    }
+
+    .info__container p {
+        width: 70%;
+    }
+}
+
+
+.info__button {
+    margin: 20px 10px 20px 0;
+    padding: 7px 20px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.info__button:hover {
+    color:black;
+    background-color: white;
+}
+
+.info__temporadas {
+    margin: 20px 10px 20px 0;
+}
+
+main {
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+}
+
+.assistir {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ass__grade-de-filmes {
+    /* display: flex;
+    justify-self: center;*/
+    overflow: hidden; 
+}
+
+.ass__title {
+    font-size:21px;
+}
+
+.ass__miniatura {
+    width: 33%;
+    height: 126px;
+    margin-top: 10px;
+    background-position:center;
+    
+}
+
+@media screen and (max-width: 860px) {
+    .ass__grade-de-filmes {
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+
+    .ass__miniatura {
+        width: 32.5%;
+        
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .ass__grade-de-filmes {
+        justify-content: center;
+    }
+
+    .ass__miniatura {
+        width: 48%; 
+    }
+}
+
+.ass__miniatura:hover {
+    transition: .5s;
+    transform: scale(1.3, 1.3);
+}
+
+.ass__video {
+    z-index: 100;
+    height: 200px;
+    cursor:pointer;
+    background-size:cover;
+}
+
+.ass__miniatura--margin {
+    margin-left:7px ;
+    margin-bottom: 20px;
+}
+
+footer{
+    color:white;
+    padding: 70px 0;
+    text-align: center;
+    background-color: black;
+}

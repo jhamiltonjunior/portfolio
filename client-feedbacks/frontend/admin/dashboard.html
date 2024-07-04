@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Login</title>
+</head>
+
+<body>
+
+  <aside class="sidebar">
+    <ul>
+      <li class="flex logo">
+        <img src="img/logo-1.png" alt="">
+        <span>Dashboard</span>
+      </li>
+      <li class="flex cursor">
+        <img src="img/home.png" alt="">
+        <span>Home</span>
+      </li>
+
+      <li class="flex cursor">
+        <img src="img/star.png" alt="">
+        <span>Avaliações</span>
+      </li>
+    </ul>
+  </aside>
+
+  <header class="header"></header>
+
+  <main class="main-dashboard">
+    <section class="select-data">
+      <form action="" class="form select-data-form">
+        <h2>Selecione uma opção</h2>
+        <div class="select-data-wrapper">
+          <ul>
+            <li>
+              <button class="button button-specialty">
+                
+                <p>Especialidade</p>
+                <img src="img/edit.png" alt="">
+              </button>
+
+            </li>
+            <li>
+              <button class="button button-professional">
+                <p>Profissionais</p>
+                <img src="img/edit.png" alt="">
+              </button>
+            </li>
+            <li>
+              <button class="button button-con-professioanl">
+                <p>Conectar um Profissional a uma Especialidade</p>
+                <img src="img/edit.png" alt="">
+              </button>
+
+            </li>
+            <li></li>
+          </ul>
+        </div>
+
+
+        <div class="edit-data">
+          <div class="add-data">
+            <button class="button" id="create-new-item">
+              <p>Criar novo</p>
+              <img src="img/add.png" alt="">
+            </button>
+          </div>
+
+          <table id="contaner-edit" class="w-full"></table>
+        </div>
+
+      </form>
+
+    </section>
+  </main>
+
+  <footer></footer>
+
+  <script src="js/fecth.js"></script>
+  <script src="js/dashboard.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+</body>
+
+</html>
