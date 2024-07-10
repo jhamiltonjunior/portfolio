@@ -4,14 +4,22 @@ include '../../shared/connection_db.php';
 include '../../shared/convert_to_utf8.php';
 
 if (isset($_GET)) {
-  $result = $mysqli->query("SELECT name FROM professional");
+  $offset = $_GET['offset'];
+  $result = $mysqli->query("SELECT patient.name as patient_name, grade.created_at as created_feedback, grade.*, patient.*, professional.*
+    FROM grade
+    INNER JOIN patient ON grade.patient_id = patient.patient_id
+    INNER JOIN professional ON grade.professional_id = professional.professional_id
+    WHERE patient.patient_id != 1
+    LIMIT 10
+    OFFSET $offset
+  ");
 
   if ($result) {
       $quantity = $result->num_rows;
   
       if ($quantity > 0) {
           $result_array = [];
-          while ($row = $result->fetch_all()) {
+          while ($row = $result->fetch_assoc()) {
               $result_array[] = utf8ize($row);
           }
 

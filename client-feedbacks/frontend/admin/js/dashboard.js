@@ -13,21 +13,6 @@ selectDataForm.addEventListener('submit', event => {
 })
 
 specialty.addEventListener('click', async () => {
-  const response = await readSpecialty()
-  console.log(response)
-  generateGenericHTML(response)
-  // createNewItemButton.onclick = openSpecialtyDialog
-})
-
-professional.addEventListener('click', async () => {
-  const response = await readProfissional()
-  console.log(response)
-  generateGenericHTML(response)
-  // createNewItemButton.onclick = openSpecialtyDialog
-})
-
-
-function generateGenericHTML(response) {
   let html = `
     <thead>
       <tr>
@@ -37,12 +22,38 @@ function generateGenericHTML(response) {
       </tr>
     </thead>
   `
+  const response = await readSpecialty()
+  console.log(response)
+  generateGenericHTML(response, html)
+  // createNewItemButton.onclick = openSpecialtyDialog
+})
+
+professional.addEventListener('click', async () => {
+  let html = `
+    <thead>
+      <tr>
+        <th>Profissional</th>
+        <th>Editar</th>
+        <th>Apagar</th>
+      </tr>
+    </thead>
+  `
+  const response = await readProfissional()
+  // console.log(response)
+  generateGenericHTML(response, html)
+  // createNewItemButton.onclick = openSpecialtyDialog
+})
+
+
+function generateGenericHTML(response, html) {
   const tbody = document.createElement('tbody')
   
   table.innerHTML = html
   table.appendChild(tbody)
+  console.log(response)
 
   response.map((_, index, array) => {
+    console.log(index)
     const tr = document.createElement('tr')
     const td = document.createElement('td')
     const tdEdit = document.createElement('td')

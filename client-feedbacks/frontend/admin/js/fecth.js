@@ -59,6 +59,20 @@ const readProfissional = async () => {
   }
 }
 
+const readAllAssessments = async (offset) => {
+  const params = {
+      method: 'GET',
+  }
+
+  try {
+    const result = await fetch(`${BASE_URL}/admin/assessment/read_all.php?offset=${offset}`, params);
+    return result.json();
+  } catch (e) {
+      console.log(e);
+      return []
+  }
+}
+
 // const searchSpecialty = async () => {
 //   const params = {
 //     method: "GET",
