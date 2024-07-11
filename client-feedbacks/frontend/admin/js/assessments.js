@@ -46,7 +46,7 @@ function viewAssessments(assessments) {
     ])
 
     htmlAssessments += `
-      <div class="inline_feedback rounded-md px-2 py-4 w-full shadow-md cursor-pointer w-full flex justify-between">
+      <div class="inline_feedback rounded-md px-2 py-4 w-full shadow-md cursor-pointer flex justify-between">
         <div>
           <h1>${assessment.patient_name}</h1>
           <small>${formatedDate}</small>
@@ -58,7 +58,7 @@ function viewAssessments(assessments) {
       </div>
       `
   })
-  console.log(htmlAssessments)
+  console.log(assessments)
 
   feedbackContainer.innerHTML = htmlAssessments
 }
